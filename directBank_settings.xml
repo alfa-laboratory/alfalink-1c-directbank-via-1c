@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Settings xmlns="http://directbank.1c.ru/XMLSchema" id="dee66939-c361-42f9-8491-53cf3bea6a61" formatVersion="2.2.2" creationDate="2021-06-17T12:53:48.785Z">
+	<Sender bic="044525593" name="АО &quot;АЛЬФА-БАНК&quot;"/>
+	<Recipient id="40702810701300009144" name="Общество с ограниченнойответственностью &quot;Тест Директ Банк&quot;" inn="0329156629"/>
+	<Data>
+		<CustomerID>40702810701300009144</CustomerID>
+		<BankServerAddress>https://grampus-int.alfabank.ru/API/v1/directbank</BankServerAddress>
+		<FormatVersion>2.2.2</FormatVersion>
+		<Encoding>UTF-8</Encoding>
+		<Compress>false</Compress>
+		<Logon>
+			<Login>
+				<User>directBank</User>
+			</Login>
+		</Logon>
+		<CryptoParameters>
+			<CSPName>Crypto-Pro GOST R 34.10-2012 Cryptographic Service Provider</CSPName>
+			<CSPType>80</CSPType>
+			<SignAlgorithm>GR 34.10-2012 256</SignAlgorithm>
+			<HashAlgorithm>GR 34.11-2012 256</HashAlgorithm>
+			<Encrypted>
+				<EncryptAlgorithm>GOST 28147-89</EncryptAlgorithm>
+			</Encrypted>
+			<CustomerSignature>
+				<GroupSignatures numberGroup="1">
+					<Certificate>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</Certificate>
+				</GroupSignatures>
+			</CustomerSignature>
+		</CryptoParameters>
+		<Document docKind="01"/>
+		<Document docKind="02"/>
+		<Document docKind="03"/>
+		<Document docKind="05"/>
+		<Document docKind="06"/>
+		<Document docKind="10">
+			<Signed>
+				<RuleSignatures>(1)</RuleSignatures>
+			</Signed>
+		</Document>
+		<Document docKind="14"/>
+		<Document docKind="15"/>
+		<Document docKind="19"/>
+		<Document docKind="20"/>
+		<Document docKind="21"/>
+		<Document docKind="22"/>
+	</Data>
+</Settings>
