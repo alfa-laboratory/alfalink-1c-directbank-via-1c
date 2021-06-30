@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Settings xmlns="http://directbank.1c.ru/XMLSchema" id="dee66939-c361-42f9-8491-53cf3bea6a61" formatVersion="2.2.2" creationDate="2021-06-17T12:53:48.785Z">
 	<Sender bic="044525593" name="АО &quot;АЛЬФА-БАНК&quot;"/>
-	<Recipient id="40702810701300009144" name="Общество с ограниченнойответственностью &quot;Тест Директ Банк&quot;" inn="0329156629"/>
+	<Recipient id="40702810701300009144" name="Общество с ограниченной ответственностью &quot;Тест Директ Банк&quot;" inn="0329156629"/>
 	<Data>
 		<CustomerID>40702810701300009144</CustomerID>
 		<BankServerAddress>https://grampus-int.alfabank.ru/API/v1/directbank</BankServerAddress>
